@@ -18,7 +18,7 @@ console.log(typeof c);
 
 let d=`i am
 a
-deeloper`
+developer`
 console.log(d);
 
 let m = 10;
@@ -48,7 +48,7 @@ console.log((10)? true : false);
 
 
 //big-int
-console.log(typeof 1n);
+console.log(typeof 10n);
 
 //symbol
 let f = Symbol('hello')
@@ -71,11 +71,11 @@ console.log(typeof NaN) //number
 
 //Explict Type-casting
 console.log(5+Number('5'));
-console.log(String(5)+5);
+console.log(String(5)+6);
 
 console.log(Boolean(0));    //false
 console.log(Boolean (undefined));  //false
 console.log(Boolean (null));    //false
 console.log(Boolean (NaN));     //false
 console.log(Boolean (false));   //false
-
+//for default in JS above all considered as false
